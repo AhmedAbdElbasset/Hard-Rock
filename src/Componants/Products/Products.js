@@ -15,7 +15,7 @@ const Products = (props) => {
                 {props.cartData.map((cart,i) => (
                     <li className='Cart' key={cart.id}>
                             <div className='view'>
-                            <Link to={`./productDetails/${cart.id}`} >
+                            <Link to={`/productDetails/${cart.id}`} >
                                 view
                             </Link></div>
                             <img src={cart.image} alt='' />

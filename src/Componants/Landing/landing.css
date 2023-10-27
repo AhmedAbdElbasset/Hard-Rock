@@ -170,7 +170,7 @@ position: relative;
         left: 3%;
     }
 }
-@media (max-width:412px) {
+@media (max-width:475px) {
     .landing{
         height: 345px;
     }
