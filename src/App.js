@@ -12,7 +12,7 @@ function App() {
       setProductId(pI)
     }
   const router = createBrowserRouter([
-    { path: '/', element: <Home getProductId={getProductID} /> }
+    { path: '/Hard-Rock', element: <Home getProductId={getProductID} /> }
     , { path: '/productDetails/:id', element: <ProductDetailsPage productID={productID} /> },
     { path: '/trackOrder', element: <TrackOrderPage /> },
     { path: '/login', element: <LoginPage /> },
