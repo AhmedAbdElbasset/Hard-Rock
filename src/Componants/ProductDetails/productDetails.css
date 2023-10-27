@@ -1,0 +1,216 @@
+
+.productPage{
+    
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+.product{
+    width: 100%;
+    height: 84%;
+    position: relative;
+    top: 43px;
+}
+.product img{
+    
+    width: 200px;
+    position: absolute;
+    left: 10%;
+    top: 58px;
+}
+.product .details{
+width: 50%;
+height: 100%;
+position: absolute;
+left: 42%;
+}
+.product .details .title{
+    font-size: 25px;
+    top: 5px;
+    position: absolute;
+}
+.product .details .rate{
+    top: 155px;
+    position: absolute;
+
+}
+.product .details .category{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.product .details .category::first-letter{
+    text-transform: uppercase;
+}
+.product .details .price{
+    top: 155px;
+    position: absolute;
+    left:100px;
+
+}
+.product .details .des{
+height: 61px;
+overflow: hidden;
+font-size: 13px;
+position: absolute;
+top: 70px;
+color: gray;
+}
+.product .details .size{
+    position: relative;
+    top: 200px;
+    display: flex;
+    gap: 12px;
+}
+.product .details .size button{
+    outline: none;
+    position: relative;
+    left: -122px;
+    top: 38px;
+    width: 26px;
+    background-color: white;
+    border: none;
+    border-radius: 20%;
+    padding: 2px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.product .details .size button:hover{
+    border: none;
+    scale: 1.05;
+    background-color: black;
+    color: white;
+}
+.product .details .count{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 257px;
+}
+.product .details .count p{
+    top: -10px;
+
+}
+.product .details .count input{
+    width: 20px;
+    outline: none;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    padding-left: 5px;
+
+}
+.product .details .count span{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    border-radius: 50%;
+    color: black;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 27px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.product .details .count span.minus{
+    left: 70px;
+    top: 25px;
+
+}
+.product .details .count p.remaining{
+    top: 66px;
+    position: absolute;
+}
+.product .details .button{
+    top: 179px;
+    position: relative;
+    left: 180px;
+    width: 100px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+.product .details .button button{
+    background-color: white;
+    border: 2px solid;
+    width: 98%;
+    height: 100%;
+    border-radius: 3px;
+    margin-top: -9px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product .details .button button:hover{
+    width: 100%;
+    margin-top: 0;
+}
+.product .details .button button span{
+    position: absolute;
+    transition: 0.3s;
+    left: 6px;
+    top: 8px;
+}
+.product .details .button button img{
+    height: 30px;
+    width: 30px;
+    top: 0;
+    bottom: -50px;
+    position: absolute;
+    left: -100px;
+    transition: 0.3s;
+}
+.product .details .button button:hover span{
+    left: 105px;
+}
+
+.product .details .button button:hover img{
+    left: 31px;
+    top: 3px;
+}
+.sp{
+    top: 490px;
+    position: absolute;
+    left: 50%;
+    font-size: 30px;
+    transform: translateX(-50%);
+}
+
+@media (max-width:412px) {
+    .product{
+        height: 110%;
+    }
+.product .details {
+    width: 89%;
+    height: 376px;
+    position: relative;
+    top: 2%;
+    left: 9%;
+
+}
+.product img {
+    position: relative;
+    top: -9px;
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 9px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+}

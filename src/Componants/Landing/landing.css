@@ -1,0 +1,222 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.landing{
+    width: 110%;
+    height: 604px;
+    position: relative;
+    top: 0;
+    z-index: -2;
+    left: 0;
+}
+/* Start Image Slider  */
+.slide::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    top: 0px;
+    left: 0;
+    
+}
+.slide{
+    width: 92%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    z-index: -2;
+    left: 0%;
+
+}
+.slide[data-active]{
+    opacity: 1;
+}
+.landing img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    scroll-snap-align: start;
+    transition: 2s ease;
+}
+/* .landing img.active{
+    clip-path: circle(150.0% at 0 50%);
+    transition: 2s ease;
+    transition-property:clip-path; 
+
+} */
+.landing .button{
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+    z-index: 7;
+    background: none;
+    border: none;
+    font-weight: lighter;
+    z-index:5;
+}
+.landing .button img{    
+    height: 20px;
+    width: 20px;
+}
+.landing .button.left{
+    left: 2%;
+    transform:rotate(180deg)
+}
+.landing .button.right{
+    right: 5%;
+    top:47%;
+}
+
+/* End Image Slider  */
+
+/* Start Description  */
+.landing .des{
+    position: absolute;
+    z-index: 4;
+    color: white;
+    width: 50%;
+    height: 100%;
+    left: 4%;
+    padding-top: 5%;
+}
+.landing .des p{
+    font-size: 77px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.landing .des span{
+font-size: 25px;
+left: 13px;
+position: relative;
+}
+.landing .des .buttons{
+    
+    position: relative;
+    top: 113px;
+    left: 4%;
+    gap: 65px;
+    display: flex;
+    z-index:10;
+}
+.landing .des .buttons  button {
+    background: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.landing .des .buttons  button a{
+    color:white;
+}
+
+.landing .des .buttons  button:hover a{
+    color:black;
+}
+.landing .des .buttons button:hover{
+    background-color: white;
+    border: none;
+    color: black;
+    scale: 1.1;
+}
+/* End Description  */
+/* Start Media Quires  */
+
+
+@media (max-width:768px) {
+    .landing .des p {
+        font-size: 43px;
+    }
+    .landing .des span {
+        font-size: 18px;
+        left: 9px;
+        top: 17px;
+    }
+    .slide::after{
+        width: 109%;
+        height: 72%;
+    }
+    .landing img {
+        width: 109%;
+        height: 72%;
+    }
+    
+    .landing .button {
+        top: 32%;
+        font-size: 43px;
+    }
+    .landing .button.button.right {
+        top: 27%;
+        right: 4%;
+    }
+    
+    .landing .button.button.left {
+        left: 3%;
+    }
+}
+@media (max-width:412px) {
+    .landing .des{
+        top: 20px;
+    }
+    .landing img {
+        height: 39%;
+    }
+    
+    .slide::after{
+        height: 39%;
+    }
+    .landing .des p {
+        font-size: 26px;
+    }
+    .landing .des span {
+        font-size: 12px;
+        left: 5px;
+        top: 1px;
+    }
+    .landing .des .buttons{
+        top: 40px;
+        left: 0;
+    }
+    .landing .des .buttons button{
+        
+    padding: 10px 8px;
+    font-size: 12px;
+    }
+    .landing .button {
+    top: 13%;
+    font-size: 43px;
+    }
+    .landing .button.button.right {
+        right: 2%;
+    }
+    
+    .landing .button.button.left {
+        left: 0%;
+    }
+}
+
+@media (max-width:375px) {
+    
+    .landing .des .buttons{
+        gap: 40px;
+
+    }
+    .landing .des p {
+        font-size: 23px;
+    }
+    
+    .landing .des .buttons button{
+        
+        padding: 10px 8px;
+        font-size: 12px;
+        }
+}
+/* End Media Quires  */

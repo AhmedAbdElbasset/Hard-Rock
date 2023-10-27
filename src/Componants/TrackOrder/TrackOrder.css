@@ -1,0 +1,236 @@
+.TrackOrder{
+    width: 100%;
+    height: 91vh;
+    padding-left: 10px;
+    position: relative;
+}
+.TrackOrder p.id{
+    font-size: 36px;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+/* Start Empty  */
+.TrackOrder .empty{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    margin: 0;
+    left: 0px;
+}
+.TrackOrder .empty img{
+    width: 40%;
+    left: 50%;
+    top:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.TrackOrder .empty p{
+position: absolute;
+bottom: 10%;
+left: 50%;
+transform: translateX(-50%);
+font-size: 27px;
+}
+/* End Empty  */
+/* Start CheckOut  */
+.CheckOut{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    margin: 0;
+    left: 0px;
+}
+.CheckOut .orderId{
+    font-size: 45px;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    overflow: hidden;
+}
+.CheckOut .Products{
+    width: 95%;
+    height: 62vh;
+    left: 2.5%;
+    position: relative;
+    top: 17%;
+    display: flex;
+    overflow-y: auto;
+}
+
+.Products::-webkit-scrollbar{
+    display: none;
+}
+.CheckOut .Products .Scroll{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.CheckOut .Products .Box{
+    position: relative;
+    width: 80%;
+    height: 95px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 45px;
+}
+
+.CheckOut .Products .Box::before{
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 2px;
+    background-color: black;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -19px;
+
+}
+.CheckOut .Products .Box img{
+    width: 90px;
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.CheckOut .Products .Box span{
+    position: absolute;
+    font-size: 20px;
+}
+.CheckOut .Products .Box .Title{
+    width: 60%;
+    top: 0;
+    left: 12%;
+}
+.CheckOut .Products .Box .Price{
+    top: 0;
+    right: 12%;
+}
+
+.CheckOut .Products .Box .Quantity{
+    right: 13%;
+    top: 62px;
+    color: gray;
+    font-weight: lighter;
+}
+/* End CheckOut  */
+.footer{
+    width: 91%;
+    position: relative;
+    bottom: -112px;
+    left: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .Payment {
+    width: 126px;
+    font-size: 22px;
+    position: relative;
+}
+
+.footer .Payment span{
+    position: relative;
+    left: 12px;
+    font-size: 20px;
+    color: green;
+    top: -5px;
+}
+
+.footer .finish {
+    width: 155px;
+    position: relative;
+}
+.footer .finish p{
+    font-size: 20px;
+    color: green;
+}
+
+.footer .finish button{
+    position: relative;
+    top: 0;
+    left: -81px;
+    top: -29px;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    overflow: hidden;
+    z-index: 1;
+    font-weight: lighter;
+}
+
+.footer .finish button:hover{
+    color: white;
+}
+.footer .finish button::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    left: 0;
+    top: 31px;
+    transition: 0.3s;
+    z-index: -1;
+}
+
+.footer .finish button:hover:before{
+    top: 0;
+}
+/* Start Responsive  */
+
+@media (max-width:768px) {
+    .TrackOrder .empty img {
+        width: 82%;
+        top: 45%;
+    }
+    .CheckOut .Products .Box img {
+        left: -52px;
+        position: relative;
+    }
+    
+}
+@media (max-width:412px) {
+    .TrackOrder .empty p {
+        bottom: 26%;
+        font-size: 16px;
+    }
+    .CheckOut .orderId {
+        font-size: 34px;
+    }
+    .CheckOut .Products .Box {
+        width: 96%;
+        left: 58%;
+    }
+    .CheckOut .Products .Box img {
+        width: 75px;
+        left: -35px;
+    }
+    .CheckOut .Products .Box::before {
+        left: 43%;
+    }.CheckOut .Products .Box .Title {
+        left: 16%;
+    }
+    .CheckOut .Products .Box span {
+        font-size: 17px;
+    }
+    .CheckOut .Products .Box .Title {
+        right: 16%;
+    }
+    .footer {
+        bottom: -124px;
+    }
+    
+    .footer .finish{
+        right: -64px;
+    }
+}
+    
+/* End Responsive  */

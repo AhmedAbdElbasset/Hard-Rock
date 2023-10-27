@@ -1,0 +1,250 @@
+/* Start Wrapper  */
+.Cartwrapper{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-left: 20px;
+}
+
+/* End Wrapper  */
+
+/* Start Cart  */
+.Cart{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(160px, 230px));
+    grid-template-rows: repeat(auto-fill,minmax(210px, 310px));
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid rgb(156, 156, 133);
+    transition: 0.5s;
+    cursor: pointer;
+    overflow: hidden;
+    color:black;
+}
+
+.Cart:hover{
+    scale: 1.1;
+    box-shadow: 3px 2px 7px 2px #c6c6c6;
+    border: none;
+}
+.Cart img{
+    width: 123px;
+    height: 164px;
+    position: absolute;
+    left: 50%;
+    top: 7px;
+    transform: translateX(-50%);
+    transition: 0.3s;
+
+}
+.Cart:hover img{
+    scale: 1.1;
+}
+.Cart .title{
+    top: 71%;
+    position: absolute;
+    font-size: 11px;
+    left: 5%;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 34px;
+    padding-right: 41px;
+    overflow: hidden;
+}
+.Cart .price{
+    position: absolute;
+    top: 81%;
+    left: 5%;
+
+}
+.Cart .category{
+    position: absolute;
+    top: 81%;
+    right: 5%;
+}
+.Cart input{
+    width: 27px;
+    height: 20px;
+    padding-left: 7px;
+    position: absolute;
+    top: 242px;
+    left: 5%;
+    border: 1px solid black;
+
+}
+.Cart input:focus{
+    border: 1px solid black;
+    outline: none;
+
+    
+}
+.Cart .des{
+    display: none;
+    position: absolute;
+    top: 79%;
+    font-size: 12px;
+    left: 5%;
+}
+.Cart:hover button{
+    right: 41%;
+}
+.Cart button{
+z-index: 100;
+width: 70px;
+height: 24px;
+position: absolute;
+top: 280px;
+right: -103px;
+background-color: black;
+color: white;
+border: none;
+font-size: 12px;
+font-weight: lighter;
+outline: none;
+border-radius: 6px;
+cursor: pointer;
+overflow: hidden;
+transition: 0.5s;
+}
+.Cart button span {
+    transition: 0.3s;
+    position: absolute;
+    top: 6px;
+    font-size: 10px;
+    left: 7px;
+
+}
+.Cart button:hover span {
+    top: -25px;
+}
+
+.Cart button img{
+    height: 23px;
+    width: 23px;
+    top: 80px;
+    bottom: -50px;
+    position: absolute;
+    left: 36px;
+    transition: 0.3s;
+}
+.Cart button:hover img{
+    top: 0px;
+}
+
+.Cart .view{
+    width: 100%;
+    height: 66%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    transition: 0.3s;
+    }
+    
+.Cart .view a{
+    opacity: 0;
+    transition: 0.3s;
+    transition-delay: 0.3;
+}
+.Cart:hover .view{
+    background-color: black;
+    color: white;
+}
+
+.Cart:hover .view a{    
+    display: flex;
+    opacity: 1;
+    color: white;
+    font-size: 33px;
+    font-weight: 300;
+    scale: 1.3;
+    letter-spacing: 2px;
+}
+/* End Cart  */
+
+/* START responsive  */
+
+@media (max-width:768px) {
+    
+    .Cartwrapper{
+    position: relative;
+    top: -50px;
+    }
+    
+    .Cartwrapper .Cart{
+    grid-template-columns: repeat(auto-fill,minmax(160px, 203px));
+    grid-template-rows: repeat(auto-fill,minmax(210px, 272px));
+    }
+    .Cart img{
+        width: 105px;
+        height: 140px;
+        top: 15px;
+    }
+    .Cart .title{
+        top: 61%;
+    }
+    .Cart .price,.Cart .category {
+        top: 76%;
+    }
+    .Cart button {
+    top: 237px;
+}
+
+.Cart:hover button {
+    right: 32%;
+}
+}
+@media (max-width:412px) {
+    .Cartwrapper{
+        position: relative;
+        top: -284px;
+    }
+    .content{
+        gap: 30px;
+        padding-left: 15px;
+    }
+    
+    .Cartwrapper .Cart {
+        grid-template-columns: repeat(auto-fill,minmax(134px, 167px));
+        grid-template-rows: repeat(auto-fill,minmax(210px, 261px));
+    }
+    .Cart .title{
+        top: 60%;
+    }
+    .Cart img{
+    width: 98px;
+    height: 132px;
+    }
+.Cart .price,.Cart .category {
+    font-size: 12px;
+    top: 76%;
+}
+.Cart button {
+    top: 225px;
+}
+
+.Cart:hover button {
+    right: 32%;
+}
+}
+
+@media (max-width:375px) {
+.Cartwrapper .Cart {
+    grid-template-columns: repeat(auto-fill,minmax(160px, 203px));
+    grid-template-rows: repeat(auto-fill,minmax(210px, 272px));
+    left: 50%;
+    transform: translateX(-50%);
+}
+}
+    
+
+    
+/* END responsive  */
