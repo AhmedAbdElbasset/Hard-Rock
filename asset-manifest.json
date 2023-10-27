@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.56dac3b7.css",
+    "main.js": "/static/js/main.2a711584.js",
+    "static/js/512.125ea300.chunk.js": "/static/js/512.125ea300.chunk.js",
+    "static/media/backGround3.jpg": "/static/media/backGround3.2949d5b2f9a75a97acf4.jpg",
+    "static/media/backGround.jpg": "/static/media/backGround.12bd91ee181bade7f7eb.jpg",
+    "static/media/Charity market-pana.png": "/static/media/Charity market-pana.a9321c8bfbf0ce3dae7e.png",
+    "static/media/we are open-cuate.png": "/static/media/we are open-cuate.7878d7914fbd0a689259.png",
+    "static/media/Contact us-amico.png": "/static/media/Contact us-amico.4a5073a5f0af7d1663f3.png",
+    "static/media/backGround2.jpg": "/static/media/backGround2.faf4cb4f4cb2ee543fab.jpg",
+    "index.html": "/index.html",
+    "main.56dac3b7.css.map": "/static/css/main.56dac3b7.css.map",
+    "main.2a711584.js.map": "/static/js/main.2a711584.js.map",
+    "512.125ea300.chunk.js.map": "/static/js/512.125ea300.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56dac3b7.css",
+    "static/js/main.2a711584.js"
+  ]
+}
