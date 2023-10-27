@@ -317,7 +317,8 @@ background-color: white;
 .Log-in .new-user {
     width: 100%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%,-50%);
+    top: 57%;
 }
     .Log-in .form .options .box p {
         font-size: 12px;

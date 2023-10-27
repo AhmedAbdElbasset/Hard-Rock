@@ -192,9 +192,19 @@ font-size: 23px;
         top: 45%;
     }
     .CheckOut .Products .Box img {
-        left: -52px;
+        left: -38px;
         position: relative;
     }
+    .CheckOut .Products .Box .Title {
+        left: 18%;
+        font-size: 15px;
+    }
+    .CheckOut .Products .Box .Price {
+        font-size: 15px;
+    }
+        .TrackOrder .empty p {
+            width: 257px;
+        }
     
 }
 @media (max-width:412px) {

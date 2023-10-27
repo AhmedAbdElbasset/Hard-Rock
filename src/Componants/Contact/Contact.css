@@ -144,7 +144,8 @@ cursor: pointer;
     .Contact .form{
         width: 80%;
         height: 445px;
-    
+        top: 50%;
+        transform: translateY(-50%);
     }
     .Contact .form form {
         left: 58%;
