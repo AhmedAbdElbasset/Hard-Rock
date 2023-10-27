@@ -51,10 +51,6 @@
     display: flex;
     width: 112px;
 }
-.Footer .page a:hover{
-    animation: name duration timing-function delay iteration-count direction fill-mode;
-    animation: Vibrate 1s ease-in-out 1;
-}
 .Footer .touch{
     position: relative;
     width: 19%;
@@ -102,7 +98,14 @@
 }
 @media (max-width:412px) {
     
-    .Footer{}
+    .Footer{
+        height: 100px;
+    }
+    .Footer .Name {
+        position: relative;
+        width: 110PX;
+        height: 100%;
+    }
     .Footer .Name p {
         font-size: 20px;
     }
@@ -116,13 +119,13 @@
     gap: 0px;
     flex-direction: column;
     top: 2%;
-    left: 3%;
+    left: 2%;
     transform: none;
 
     }
     
     .Footer .page a{
-    font-size: 15px;
+    font-size: 11px;
 }
 
     .Footer .touch {
@@ -133,13 +136,13 @@
     }
     .Footer .touch p {
         top: 19px;
-        font-size: 16px;
+        font-size: 14px;
         left: 10px;
     }
     .Footer .touch span {
     top: 43px;
     left: 14%;
-    font-size: 6px;
+    font-size: 5px;
     left: 31px;
 }
 .Footer .touch a img {
@@ -148,6 +151,12 @@
 }
 }
 @media (max-width:375px) {
+.Footer .touch a {
+    position: relative;
+    top: 47%;
+    margin-right: 8px;
+    left: 12%;
+}
 .Footer .Name p {
     font-size: 17px;
 }
@@ -157,7 +166,7 @@
 }
 
 .Footer .page {
-    left: 4%;
+    left: -1%;
 }
 }
 

@@ -50,7 +50,7 @@ position: relative;
 }
 
 .Log-in .form .options span.or{
-    right: 120px;
+    right: 143px;
     color: black;
     cursor: auto;
 }
@@ -142,6 +142,7 @@ position: relative;
     position: relative;
     left: -58px;
     cursor: pointer;
+    top: 15px;
 }
 
 .Log-in .form form input.box:hover:placeholder-shown{
@@ -150,7 +151,6 @@ position: relative;
 
 .Log-in .form form button{
     width: 60px;
-    /* height: 25px; */
     padding: 5px;
     background-color: white;
     border: 1px solid;
@@ -162,7 +162,7 @@ position: relative;
     transition: 0.3s;
     z-index: 1;
     left: 84%;
-    top: 0;
+    top: 15px;
 
 }
 
@@ -191,11 +191,12 @@ position: relative;
     position: relative;
     left: -43px;
     cursor: pointer;
+    top: 15px;
 }
 
 .Log-in .form form p{
     position: relative;
-    top: 0;
+    top: 15px;
     left: 0;
     color: #3f77ff;
     cursor: pointer;
@@ -221,9 +222,9 @@ background-color: white;
 
 
 .Log-in .new-user span{
-    top: 25%;
+    top: 22%;
     position: absolute;
-    font-size: 12px;
+    font-size: 9px;
     color: gray;
     font-weight: lighter;
     left: 50%;
@@ -318,6 +319,10 @@ background-color: white;
     left: 50%;
     transform: translateX(-50%);
 }
+    .Log-in .form .options .box p {
+        font-size: 12px;
+    }
+
 
 .Log-in .new-user form input {
     width: 80%;

@@ -1,8 +1,5 @@
 import React,{useState} from 'react'
 import './landing.css'
-import backGround1 from '../../images/backGround.jpg'
-import backGround2 from '../../images/backGround2.jpg'
-import backGround3 from '../../images/backGround3.jpg'
 import arraow from '../../images/icons8-arrow-60.png'
 const ImageSilder = (props) => {
     const [cuurentIndex, SetCurrentIndex] = useState(0)
@@ -11,17 +8,12 @@ const ImageSilder = (props) => {
         const isFirstSlide = cuurentIndex === 0
         const newIndex=isFirstSlide?props.Slides.length -1:cuurentIndex-1
         SetCurrentIndex(newIndex)
-
-        // props.Slides[cuurentIndex].className==='active'?props.Slides
-        
     }
     setTimeout(() => {
-        // props.Slides[cuurentIndex].className='active'
         const isLastSlide = cuurentIndex === props.Slides.length -1
         const newIndex = isLastSlide ? 0 : cuurentIndex + 1
         SetCurrentIndex(newIndex)
         
-        // props.Slides[newIndex].className==='active'?props.Slides[newIndex].className='':props.Slides[newIndex].className='active'
     }, 5000)
     
     const goToNext = () => {
@@ -30,6 +22,7 @@ const ImageSilder = (props) => {
         SetCurrentIndex(newIndex)
         props.Slides[cuurentIndex].className='active'
     }
+    console.log(props.Slides[cuurentIndex].url)
     return (
         <div className='slide'>
             <button className='left button' onClick={goToPrev}><img src={arraow} alt=''/></button>

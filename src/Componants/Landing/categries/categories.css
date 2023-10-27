@@ -85,9 +85,19 @@
         font-size: 20px;
     }
 }
-@media (max-width: 412px){
+@media (max-width: 475px){
+    .box span {
+        position: relative;
+        top: 113px;
+        cursor: pointer;
+        transition: 0.3s;
+        left: 33%;
+        height: 25px;
+        font-size: 12px;
+    }
+    
     .box{
-        top: -289px;
+        top: 0;
         left: -89px;
         gap: 19px;
         font-size: 16px;
@@ -96,6 +106,7 @@
         width: 160px;
         height: 43px;
         font-size: 13px;
+        left: 50%;    
     }
     .head-line div::before {
         top: -54px;

@@ -19,7 +19,7 @@ const Header = (props) => {
         <React.Fragment>
             <div className={`Header ${props.className}`}>
                 <div className='Logo'>
-                    <Link to='/'><h1>Hard Rock</h1></Link>
+                    <Link to='/Hard-Rock'><h1>Hard Rock</h1></Link>
                 </div>
                 <div className='Basket'>
                     <span>{cartTotalQuantaity}</span>

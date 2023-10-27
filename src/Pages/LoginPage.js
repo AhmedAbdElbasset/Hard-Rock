@@ -4,10 +4,9 @@ import Header from '../Componants/Header/Header'
 import Footer from '../Componants/Footer/Footer'
 const LoginPage = () => {
     return (
-        <div>
+        <div className='loginPage'>
             <Header/>
             <Login />
-            <Footer/>
         </div>
     )
 }

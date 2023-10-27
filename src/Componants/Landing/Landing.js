@@ -1,21 +1,24 @@
 import React from 'react'
 import './landing.css'
+import backGround1 from '../../images/backGround.jpg'
+import backGround2 from '../../images/backGround2.jpg'
+import backGround3 from '../../images/backGround3.jpg'
 import { Link } from 'react-router-dom'
 import ImageSilder from '../Landing/imageSilder'
 const Landing = () => {
     const slides = [
         {
-            url: '/static/media/backGround.12bd91ee181bade7f7eb.jpg',
+            url: backGround1,
             alt: 'slide1',
             className:''
         },
         {
-            url: '/static/media/backGround2.faf4cb4f4cb2ee543fab.jpg',
+            url: backGround2,
             alt:'slide2',
             className:''
         },
         {
-            url: '/static/media/backGround3.2949d5b2f9a75a97acf4.jpg',
+            url: backGround3,
             alt:'slide3',
             className:''
         }

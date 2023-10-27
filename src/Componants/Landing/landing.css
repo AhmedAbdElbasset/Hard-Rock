@@ -81,7 +81,7 @@ html {
     z-index: 4;
     color: white;
     width: 50%;
-    height: 100%;
+    height: fit-content;
     left: 4%;
     padding-top: 5%;
 }
@@ -135,6 +135,14 @@ position: relative;
     .landing .des p {
         font-size: 43px;
     }
+    .landing .des .buttons button {
+        padding: 0;
+        font-size: 13px;
+        width: 91px;
+        height: 34px;
+    }
+    
+    
     .landing .des span {
         font-size: 18px;
         left: 9px;
@@ -163,15 +171,21 @@ position: relative;
     }
 }
 @media (max-width:412px) {
+    .landing{
+        height: 345px;
+    }
     .landing .des{
         top: 20px;
     }
+    .slide {
+        height: 300px;
+    }
     .landing img {
-        height: 39%;
+        height: 300px;
     }
     
     .slide::after{
-        height: 39%;
+        height: 300px;
     }
     .landing .des p {
         font-size: 26px;
@@ -187,7 +201,7 @@ position: relative;
     }
     .landing .des .buttons button{
         
-    padding: 10px 8px;
+    padding: 0;
     font-size: 12px;
     }
     .landing .button {
@@ -204,13 +218,16 @@ position: relative;
 }
 
 @media (max-width:375px) {
-    
+    .landing .des .buttons button a {
+        color: white;
+        font-size: 11px;
+    }
     .landing .des .buttons{
         gap: 40px;
 
     }
     .landing .des p {
-        font-size: 23px;
+        font-size: 18px;
     }
     
     .landing .des .buttons button{

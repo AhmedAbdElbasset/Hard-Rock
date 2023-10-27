@@ -50,7 +50,7 @@ const CartDetails = (props) => {
                 <div className='cart-empaty'>
                     <p> Your Cart Is Currently empty</p>
                     <div className='Start-Shopping'>
-                        <Link to='/' >
+                        <Link to='/Hard-Rock' >
                             <img src={Arraow} alt=''/>
                         <span>Start Shopping</span>
                         </Link>
@@ -70,8 +70,6 @@ const CartDetails = (props) => {
                                         <button onClick={()=>removeHandler(cartItem)}> Remove</button>
                                     </div>
                                 </div>
-                                
-                                <span className='item-price'>$ {cartItem.price}</span>
                                 <div className='cart-quantity'>
                                     <button onClick={()=>DecreasHandler(cartItem)}>-</button>
                                     <div>{cartItem.cartQuantity}</div>
@@ -92,7 +90,7 @@ const CartDetails = (props) => {
                                 <button onClick={CheckOutHandler}>Checkout</button>
                             </div>
                             <div className='continue-Shopping'>
-                                <Link to='/' >
+                                <Link to='/Hard-Rock' >
                                     <img src={Arraow} alt=''/>
                                     <span>Continue Shopping</span>
                                 </Link>
@@ -104,7 +102,7 @@ const CartDetails = (props) => {
                             <img src={DoneMark} alt=''/>
                 </div>
                 <p>Your Products on The Way</p>
-                <Link to={'./trackOrder'}><p className='TO'>Track Your Order</p></Link>
+                <Link to={'/trackOrder'}><p className='TO'>Track Your Order</p></Link>
             </div>
         </div>
     )

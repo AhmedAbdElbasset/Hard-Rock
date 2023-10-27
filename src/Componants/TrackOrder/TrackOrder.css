@@ -152,8 +152,8 @@ font-size: 27px;
 .footer .finish button{
     position: relative;
     top: 0;
-    left: -81px;
-    top: -29px;
+    left: -103px;
+    top: -24px;
     padding: 5px;
     background-color: white;
     border: 1px solid red;
@@ -203,7 +203,7 @@ font-size: 27px;
         font-size: 16px;
     }
     .CheckOut .orderId {
-        font-size: 34px;
+        font-size: 30px;
     }
     .CheckOut .Products .Box {
         width: 96%;
@@ -212,6 +212,17 @@ font-size: 27px;
     .CheckOut .Products .Box img {
         width: 75px;
         left: -35px;
+    }
+    .footer .finish p {
+        font-size: 13px;
+        left: 23px;
+        position: relative;
+    }
+    .footer .finish button {
+        position: relative;
+        top: 0;
+        left: -69px;
+        top: -21px;
     }
     .CheckOut .Products .Box::before {
         left: 43%;
@@ -223,6 +234,7 @@ font-size: 27px;
     }
     .CheckOut .Products .Box .Title {
         right: 16%;
+        font-size: 13px;
     }
     .footer {
         bottom: -124px;
