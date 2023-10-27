@@ -180,8 +180,8 @@ transition: 0.5s;
     }
     
     .Cartwrapper .Cart{
-    grid-template-columns: repeat(auto-fill,minmax(160px, 203px));
-    grid-template-rows: repeat(auto-fill,minmax(210px, 272px));
+        grid-template-columns: repeat(auto-fill,minmax(150px, 194px));
+        grid-template-rows: repeat(auto-fill,minmax(210px, 272px));    
     }
     .Cart img{
         width: 105px;
@@ -213,10 +213,8 @@ transition: 0.5s;
     }
     
     .Cartwrapper .Cart {
-        grid-template-columns: repeat(auto-fill,minmax(134px, 224px));
-        grid-template-rows: repeat(auto-fill,minmax(210px, 261px));
-        left: 50%;
-        transform: translateX(-50%);
+        grid-template-columns: repeat(auto-fill,minmax(134px, 194px));
+        grid-template-rows: repeat(auto-fill,minmax(210px, 276px));
     
     }
     .Cart .title{
@@ -227,8 +225,8 @@ transition: 0.5s;
     height: 132px;
     }
     .Cart .price,.Cart .category {
-        font-size: 12px;
-        top: 83%;
+        font-size: 9px;
+        top: 86%;
     }
     .Cart button {
         top: 236px;
@@ -241,13 +239,12 @@ transition: 0.5s;
 
 @media (max-width:375px) {
 .Cartwrapper .Cart {
-    grid-template-columns: repeat(auto-fill,minmax(160px, 203px));
-    grid-template-rows: repeat(auto-fill,minmax(210px, 272px));
-    left: 50%;
-    transform: translateX(-50%);
+    grid-template-columns: repeat(auto-fill,minmax(100px,154px));
+    grid-template-rows: repeat(auto-fill,minmax(210px,261px));
+    left: -2px;
 }
 .Cart button {
-    top: 244px;
+    top: 237px;
 }
 }
     

@@ -175,7 +175,8 @@ position: relative;
         height: 345px;
     }
     .landing .des{
-        top: 20px;
+        width: 100%;
+        top: 76px;
     }
     .slide {
         height: 300px;
@@ -191,9 +192,10 @@ position: relative;
         font-size: 26px;
     }
     .landing .des span {
-        font-size: 12px;
+        font-size: 14px;
         left: 5px;
-        top: 1px;
+        top: 6px;
+    
     }
     .landing .des .buttons{
         top: 40px;
@@ -224,10 +226,11 @@ position: relative;
     }
     .landing .des .buttons{
         gap: 40px;
+        top: 44px;
 
     }
     .landing .des p {
-        font-size: 18px;
+        font-size: 29px;
     }
     
     .landing .des .buttons button{
