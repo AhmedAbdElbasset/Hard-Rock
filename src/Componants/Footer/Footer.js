@@ -12,7 +12,7 @@ const Footer = () => {
                 <span>Terms of Services | Privacy Policy</span>
             </div>
             <div className='page'>
-            <Link to={`/`}><span>Home</span> </Link>
+            <Link to={`/Hard-Rock`}><span>Home</span> </Link>
             <Link to={`/trackOrder`}><span>Track Order</span> </Link>
             <Link to={`/Contact`}><span>Contact</span> </Link>
             <Link to={`/login`}><span>Log In</span> </Link>

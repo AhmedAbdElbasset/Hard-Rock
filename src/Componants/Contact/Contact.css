@@ -143,9 +143,12 @@ cursor: pointer;
     }
     .Contact .form{
         width: 80%;
+        height: 445px;
+    
     }
     .Contact .form form {
         left: 58%;
     }
+
 }
 /* End Responsive  */

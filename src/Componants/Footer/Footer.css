@@ -93,19 +93,43 @@
 /* Start responsive  */
 @media (max-width:768px) {
     .Footer .page {
-    width: 53%;
+    width: 21%;
+    gap: 0px;
+    flex-direction: column;
+    top: 2%;
+    left: 3%;
+    transform: none;
+
+    }
+    .Footer .Name p {
+        font-size: 20px;
+    }
+    .Footer .Name span {
+        font-size: 6px;
+        top: 57px;
+        left: 10%;
+    }
+    .Footer .touch a {
+        position: relative;
+        top: 28%;
+        margin-right: 4px;
+        left: -2%;
+    }
+    .Footer .touch p {
+        width: max-content;
+        font-size: 21px;
+        top: 7px;
+        position: relative;
+        left: -28px;
+    }
+    .Footer .touch a img {
+        top: 24px;
+        position: relative;
     }
 }
-@media (max-width:412px) {
+@media (max-width:475px) {
     
-    .Footer{
-        height: 100px;
-    }
-    .Footer .Name {
-        position: relative;
-        width: 110PX;
-        height: 100%;
-    }
+    .Footer{}
     .Footer .Name p {
         font-size: 20px;
     }
@@ -119,13 +143,13 @@
     gap: 0px;
     flex-direction: column;
     top: 2%;
-    left: 2%;
+    left: 3%;
     transform: none;
 
     }
     
     .Footer .page a{
-    font-size: 11px;
+    font-size: 15px;
 }
 
     .Footer .touch {
@@ -134,15 +158,18 @@
     padding-left: 11px;
 
     }
+    .Footer .touch a{
+        left: 19%;
+    }
     .Footer .touch p {
         top: 19px;
-        font-size: 14px;
+        font-size: 16px;
         left: 10px;
     }
     .Footer .touch span {
     top: 43px;
     left: 14%;
-    font-size: 5px;
+    font-size: 6px;
     left: 31px;
 }
 .Footer .touch a img {
@@ -151,12 +178,6 @@
 }
 }
 @media (max-width:375px) {
-.Footer .touch a {
-    position: relative;
-    top: 47%;
-    margin-right: 8px;
-    left: 12%;
-}
 .Footer .Name p {
     font-size: 17px;
 }
@@ -166,9 +187,8 @@
 }
 
 .Footer .page {
-    left: -1%;
+    left: 4%;
 }
 }
-
 
 /* End responsive  */

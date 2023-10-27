@@ -13,7 +13,7 @@ function TrackOrder() {
     }
     return (
         <div className='TrackOrder' >
-            {CheckOutList.length === 0 ? (
+            {CheckOutList.length === 0 || undefined? (
                 <div className='empty'>
                     <img src={Photo} alt='market' />
                     <p> There Is No Products yet</p>

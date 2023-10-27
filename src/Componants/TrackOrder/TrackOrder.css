@@ -13,7 +13,7 @@
 /* Start Empty  */
 .TrackOrder .empty{
     width: 100%;
-    height: 90vh;
+    height: 69vh;
     position: relative;
     margin: 0;
     left: 0px;
@@ -28,10 +28,10 @@
 
 .TrackOrder .empty p{
 position: absolute;
-bottom: 10%;
+bottom: 3%;
 left: 50%;
 transform: translateX(-50%);
-font-size: 27px;
+font-size: 23px;
 }
 /* End Empty  */
 /* Start CheckOut  */
