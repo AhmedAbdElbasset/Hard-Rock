@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Hard-Rock/static/css/main.3193e6df.css",
+    "main.css": "/Hard-Rock/static/css/main.3786a778.css",
     "main.js": "/Hard-Rock/static/js/main.c79e4451.js",
     "static/js/512.125ea300.chunk.js": "/Hard-Rock/static/js/512.125ea300.chunk.js",
     "static/media/backGround3.jpg": "/Hard-Rock/static/media/backGround3.2949d5b2f9a75a97acf4.jpg",
@@ -10,12 +10,12 @@
     "static/media/Contact us-amico.png": "/Hard-Rock/static/media/Contact us-amico.4a5073a5f0af7d1663f3.png",
     "static/media/backGround2.jpg": "/Hard-Rock/static/media/backGround2.faf4cb4f4cb2ee543fab.jpg",
     "index.html": "/Hard-Rock/index.html",
-    "main.3193e6df.css.map": "/Hard-Rock/static/css/main.3193e6df.css.map",
+    "main.3786a778.css.map": "/Hard-Rock/static/css/main.3786a778.css.map",
     "main.c79e4451.js.map": "/Hard-Rock/static/js/main.c79e4451.js.map",
     "512.125ea300.chunk.js.map": "/Hard-Rock/static/js/512.125ea300.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3193e6df.css",
+    "static/css/main.3786a778.css",
     "static/js/main.c79e4451.js"
   ]
 }
