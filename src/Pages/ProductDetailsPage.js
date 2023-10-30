@@ -10,7 +10,7 @@ const ProductDetailsPage = (props) => {
         setLoading(true)
         setTimeout(() => {
             setLoading(false)
-        },5000)
+        },1500)
     },[])
     const CSSProperties = {
         borderColor: "red",

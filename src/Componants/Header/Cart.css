@@ -435,7 +435,7 @@ right: 20px;
     }
     .container .cart-items .cart-quantity {
         height: 88px;
-        left: 163px;
+        left: 50%;
     }
 
     .container .cart-items .cart-quantity button.blus {
