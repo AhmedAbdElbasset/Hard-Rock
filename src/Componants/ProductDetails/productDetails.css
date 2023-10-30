@@ -192,7 +192,7 @@ color: gray;
     transform: translateX(-50%);
 }
 
-@media (max-width:475px) {
+@media (max-width:768px) {
     .product{
         height: 110%;
     }
